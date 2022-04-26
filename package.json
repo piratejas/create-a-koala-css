@@ -1,0 +1,27 @@
+{
+  "name": "css-koala-testing",
+  "version": "1.0.0",
+  "description": "## Task 1",
+  "main": "index.js",
+  "scripts": {
+    "check": "cypress run --spec cypress/integration/index.test.js",
+    "test": "cypress run --spec cypress/integration/ci.test.js --reporter json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SchoolOfCode/css_create-a-koala.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SchoolOfCode/css_create-a-koala/issues"
+  },
+  "homepage": "https://github.com/SchoolOfCode/css_create-a-koala#readme",
+  "dependencies": {
+    "cypress-plugin-snapshots": "^1.4.4"
+  },
+  "devDependencies": {
+    "cypress": "^9.5.3"
+  }
+}
