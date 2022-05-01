@@ -3,6 +3,9 @@
     height: 150px;
     border-radius: 50%;
     background: lightgrey;
+    position: fixed;
+    top: 20%;
+    left: 34%;
     
 }
 
@@ -11,6 +14,8 @@
 height: 100px;
 border-radius: 50%;
 background: grey;
+position: fixed;
+margin: 25px;
 }
 
 .ear-right {
@@ -18,6 +23,9 @@ background: grey;
 height: 150px;
 border-radius: 50%;
 background: lightgrey;
+position: fixed;
+top: 20%;
+left: 54%;
 }
 
 .face {
@@ -25,6 +33,10 @@ background: lightgrey;
     height: 300px;
     border-radius: 50%;
     background: lightgrey;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .eye-left {
@@ -32,6 +44,9 @@ background: lightgrey;
 height: 75px;
 border-radius: 50%;
 background: white;
+position: fixed;
+top: 20%;
+left: 45%;
 }
 
 .eye-right {
@@ -39,6 +54,9 @@ background: white;
 height: 75px;
 border-radius: 50%;
 background: white;
+position: fixed;
+top: 20%;
+right: 45%;
 }
 
 .pupil {
@@ -46,6 +64,8 @@ background: white;
 height: 30px;
 border-radius: 50%;
 background: black;
+position: fixed;
+margin: 20px;
 }
 
 .hair-left {
@@ -54,6 +74,9 @@ height: 0;
 border-left: 40px solid transparent;
 border-right: 40px solid transparent;
 border-bottom: 40px solid lightgray;
+position: absolute;
+top: 5%;
+left: 44%;
 }
 
 .hair-right {
@@ -62,6 +85,9 @@ height: 0;
 border-left: 30px solid transparent;
 border-right: 30px solid transparent;
 border-bottom: 30px solid lightgray;
+position: absolute;
+top: 5%;
+right: 44%;
 }
 
 .nose {
@@ -69,6 +95,10 @@ border-bottom: 30px solid lightgray;
     height: 80px;
     border-radius: 100% / 50%;
     background: #B68763;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .koala {
