@@ -1,23 +1,35 @@
 .ear-left {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background: lightgrey;
-    
+    position: absolute;
+    bottom: 50%;
+    margin-bottom: -5%;
+    left: 50%;
+    margin-left: 1%;
 }
 
 .inner-ear {
-    width: 100px;
-height: 100px;
-border-radius: 50%;
-background: grey;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: grey;
+    position: absolute;
+    top: 10%;
+    left: 10%;
 }
 
 .ear-right {
-    width: 150px;
-height: 150px;
-border-radius: 50%;
-background: lightgrey;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: lightgrey;
+    position: absolute;
+    bottom: 50%;
+    margin-bottom: -5%;
+    right: 50%;
+    margin-right: 1%;
 }
 
 .face {
@@ -25,56 +37,83 @@ background: lightgrey;
     height: 300px;
     border-radius: 50%;
     background: lightgrey;
+    position: absolute;
+    top: 50%;
+    margin-top: -150px;
+    left: 50%;
+    margin-left: -150px;
 }
 
 .eye-left {
-    width: 75px;
-height: 75px;
-border-radius: 50%;
-background: white;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    bottom: 50%;
+    margin-bottom: -10px;
+    right: 50%;
+    margin-right: -5px;
 }
 
 .eye-right {
-    width: 75px;
-height: 75px;
-border-radius: 50%;
-background: white;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    bottom: 50%;
+    margin-bottom: -10px;
+    left: 50%;
+    margin-left: -5px;
 }
 
 .pupil {
     width: 30px;
-height: 30px;
-border-radius: 50%;
-background: black;
+    height: 30px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    top: 35%;
+    left: 35%;
 }
 
 .hair-left {
     width: 0;
-height: 0;
-border-left: 40px solid transparent;
-border-right: 40px solid transparent;
-border-bottom: 40px solid lightgray;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 60px solid lightgray;
+    position: absolute;
+    top: 20%;
+    left: 45%;
 }
 
 .hair-right {
     width: 0;
-height: 0;
-border-left: 30px solid transparent;
-border-right: 30px solid transparent;
-border-bottom: 30px solid lightgray;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 45px solid lightgray;
+    position: absolute;
+    top: 22%;
+    right: 45%;
 }
 
 .nose {
-    width: 40px;
-    height: 80px;
-    border-radius: 100% / 50%;
+    width: 80px;
+    height: 130px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     background: #B68763;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    left: 50%;
+    margin-left: -40px;
 }
 
-.koala {
+.container {
     position: relative;
-}
-
-body {
     background-color: lightblue;
+    height: 100vh;
 }
